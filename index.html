@@ -3,16 +3,1128 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>IndexaByte | Consultoria de TI, Helpdesk e Infraestrutura</title>
-<meta name="description" content="IndexaByte: consultoria de TI para empresas, helpdesk, infraestrutura, suporte técnico, segurança, sites profissionais e automação." />
+<title>IndexaByte | Consultoria de TI</title>
+<meta name="description" content="Consultoria de TI para empresas: helpdesk, infraestrutura, suporte técnico, segurança e sites profissionais." />
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 <style>
-:root{--bg:#02060d;--panel:#07111a;--line:rgba(255,255,255,.14);--text:#f5f7fb;--muted:#a4afbd;--accent:#08e2bd;--cyan:#5fc5c5}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,sans-serif;background:#02060d;color:var(--text);overflow-x:hidden}body:before{content:"";position:fixed;inset:82px 0 0;background:radial-gradient(circle at 86% 24%,rgba(8,226,189,.22),transparent 28%),radial-gradient(circle at 56% 18%,rgba(95,197,197,.10),transparent 30%),linear-gradient(180deg,#02060d 0%,#07111a 62%,#02060d 100%);z-index:-2}body:after{content:"";position:fixed;inset:82px 0 0;background-image:linear-gradient(rgba(8,226,189,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(8,226,189,.07) 1px,transparent 1px);background-size:64px 64px;mask-image:linear-gradient(to bottom,transparent 0%,#000 18%,transparent 82%);z-index:-1;pointer-events:none}.container{width:min(1360px,calc(100% - 72px));margin:auto}a{text-decoration:none;color:inherit}.nav{height:102px;border-bottom:1px solid var(--line);background:rgba(2,6,13,.90);backdrop-filter:blur(18px);position:sticky;top:0;z-index:20}.nav-inner{height:100%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:28px}.brand{display:flex;align-items:center}.logo-img{width:250px;max-height:72px;object-fit:contain;display:block;filter:drop-shadow(0 0 16px rgba(8,226,189,.16))}.links{display:flex;gap:34px;align-items:center}.links a{font-size:1rem;font-weight:800;color:#f3f6fb;position:relative;padding:12px 0}.links a:first-child{color:var(--accent)}.links a:first-child:after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--accent);border-radius:99px}.nav-cta{justify-self:end}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 26px;border-radius:999px;border:1px solid rgba(8,226,189,.75);font-weight:900;transition:.25s;gap:8px}.btn:hover{transform:translateY(-2px);box-shadow:0 0 32px rgba(8,226,189,.20)}.primary{background:linear-gradient(135deg,var(--accent),#39f3d0);color:#03110f!important;border-color:transparent}.outline{background:rgba(255,255,255,.02);color:#fff}.hero{padding:70px 0 48px;border-bottom:1px solid rgba(255,255,255,.06)}.hero-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}.badge{display:inline-flex;margin-bottom:24px;padding:10px 14px;border-radius:999px;border:1px solid rgba(8,226,189,.48);background:rgba(8,226,189,.05);color:var(--accent);font-size:.82rem;font-weight:950;letter-spacing:.1em;text-transform:uppercase}h1{font-size:clamp(3.2rem,5.6vw,5.9rem);line-height:1.04;letter-spacing:-.075em;margin:0 0 24px;max-width:650px}.accent{color:var(--accent)}.lead{font-size:1.22rem;line-height:1.75;color:#c8d1dc;max-width:600px;margin:0 0 34px}.actions{display:flex;gap:14px;flex-wrap:wrap}.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:62px;max-width:720px}.trust-item{display:grid;grid-template-columns:42px 1fr;gap:12px;border-right:1px solid rgba(255,255,255,.16);padding-right:20px}.trust-item:last-child{border-right:0}.trust-icon{width:38px;height:38px;border-radius:14px;border:2px solid var(--accent);color:var(--accent);display:grid;place-items:center;font-weight:900;font-size:1.2rem}.trust-item strong{display:block;font-size:.95rem}.trust-item small{display:block;color:#b2bfca;line-height:1.45;margin-top:4px}.dashboard{border:1px solid rgba(255,255,255,.28);border-radius:24px;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.025));box-shadow:0 36px 110px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.10);backdrop-filter:blur(18px);padding:20px}.dash-head{display:flex;justify-content:space-between;align-items:center;margin:0 0 16px}.dash-head strong{font-size:1rem}.status{display:inline-flex;align-items:center;gap:8px;color:#55f4c8;background:rgba(8,226,189,.07);padding:7px 12px;border-radius:99px}.status:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--accent)}.period{padding:10px 14px;border:1px solid var(--line);border-radius:10px;color:#e2e8f0;background:rgba(255,255,255,.03)}.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}.stat{border:1px solid rgba(255,255,255,.12);border-radius:12px;background:rgba(255,255,255,.035);padding:16px}.stat small{display:block;color:#fff;font-size:.78rem;margin-bottom:14px}.stat strong{display:block;font-size:1.85rem;letter-spacing:-.06em}.stat em{display:block;color:#62efbd;font-size:.78rem;font-style:normal;margin-top:12px}.dash-bottom{display:grid;grid-template-columns:.95fr 1.05fr;gap:14px}.box{border:1px solid rgba(255,255,255,.12);border-radius:14px;background:rgba(255,255,255,.025);padding:14px}.box-head{display:flex;justify-content:space-between;margin-bottom:16px;font-weight:800}.activity{display:grid;gap:10px}.activity-item{display:grid;grid-template-columns:28px 1fr auto;gap:10px;align-items:center;padding:9px;border-radius:12px;background:rgba(255,255,255,.025)}.activity-icon{width:24px;height:24px;border:1px solid var(--accent);border-radius:50%;color:var(--accent);display:grid;place-items:center;font-size:.72rem}.activity strong{display:block;font-size:.78rem}.activity small{display:block;color:#909ba8}.activity time{font-size:.78rem}.chart{height:190px;display:grid;grid-template-columns:28px 1fr;gap:10px}.yaxis{display:flex;flex-direction:column;justify-content:space-between;color:#9ca8b5;font-size:.75rem;padding:6px 0 22px}.bars{display:flex;align-items:end;gap:18px;border-left:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08);padding:0 0 0 14px}.bar-wrap{height:150px;display:flex;flex-direction:column;justify-content:end;align-items:center;gap:8px;color:#cbd5e1;font-size:.72rem}.bar{width:26px;border-radius:2px 2px 0 0;background:linear-gradient(180deg,var(--accent),rgba(8,226,189,.42));box-shadow:0 0 20px rgba(8,226,189,.18)}.logos{padding:34px 0;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06);background:rgba(0,0,0,.12)}.logos-inner{display:flex;align-items:center;justify-content:center;gap:58px;flex-wrap:wrap;color:#7f8b99}.client-logo{display:flex;gap:10px;align-items:center;font-size:1.2rem;font-weight:900;color:#9ca8b5;opacity:.9}.client-mark{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#5fc5c5,#08e2bd);opacity:.75}.section{padding:90px 0}.section-head{text-align:center;max-width:940px;margin:0 auto 48px}.section-head h2,.problem-card h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.06em;margin:0 0 14px}.section-head p,.problem-card p{color:#c2ccd8;font-size:1.08rem;line-height:1.7;margin:0}.problem-card{margin:56px auto 0;max-width:1180px;border:1px solid rgba(255,255,255,.14);border-radius:24px;background:linear-gradient(180deg,rgba(8,226,189,.06),rgba(255,255,255,.025));padding:46px 28px;text-align:center}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid rgba(255,255,255,.13);border-radius:24px;background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.025));padding:28px;box-shadow:0 24px 70px rgba(0,0,0,.32)}.card-icon{width:48px;height:48px;border-radius:16px;background:rgba(8,226,189,.1);border:1px solid rgba(8,226,189,.32);color:var(--accent);display:grid;place-items:center;font-weight:900;margin-bottom:18px}.card h3{margin:0 0 10px;font-size:1.18rem}.card p{margin:0;color:#aeb9c6;line-height:1.7}.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.plan{border:1px solid rgba(255,255,255,.13);border-radius:24px;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.025));padding:30px}.plan.featured{border-color:rgba(8,226,189,.45);background:linear-gradient(180deg,rgba(8,226,189,.12),rgba(255,255,255,.025))}.tag{display:inline-flex;padding:7px 12px;border-radius:99px;background:rgba(8,226,189,.10);color:var(--accent);font-size:.78rem;font-weight:900;margin-bottom:14px}.amount{font-size:2rem;font-weight:900;letter-spacing:-.05em;margin:10px 0 16px}.plan p,.plan li{color:#aeb9c6;line-height:1.7}ul{margin:18px 0 0;padding:0;list-style:none;display:grid;gap:10px}li:before{content:"✓";color:var(--accent);font-weight:900;margin-right:10px}.cta{border:1px solid rgba(255,255,255,.14);border-radius:24px;background:linear-gradient(135deg,rgba(8,226,189,.12),rgba(255,255,255,.035));padding:42px;display:grid;grid-template-columns:1.3fr .7fr;gap:28px;align-items:center}.cta h2{font-size:clamp(2rem,4vw,3.3rem);margin:0 0 12px;letter-spacing:-.06em}.cta p{color:#c2ccd8;line-height:1.7}.cta-actions{display:grid;gap:12px}.whatsapp{position:fixed;right:22px;bottom:22px;width:62px;height:62px;border-radius:50%;background:linear-gradient(135deg,#25d366,var(--accent));color:#03110f;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 20px 50px rgba(0,0,0,.42);z-index:99}footer{padding:34px 0;border-top:1px solid rgba(255,255,255,.08);color:#8d99a7;background:rgba(0,0,0,.18)}footer .container{display:flex;justify-content:space-between;align-items:center;gap:22px}.footer-logo{width:230px;height:auto;display:block;opacity:.95}@media(max-width:1050px){.nav-inner{grid-template-columns:1fr auto}.links{display:none}.hero-grid,.cta{grid-template-columns:1fr}.dashboard{max-width:760px}.trust{grid-template-columns:1fr}.grid,.plans{grid-template-columns:1fr 1fr}}@media(max-width:720px){.container{width:min(100% - 28px,1360px)}.nav{height:auto}.nav-inner{padding:16px 0}.logo-img{width:200px}.nav-cta{display:none}.hero{padding-top:48px}.stat-grid,.dash-bottom,.grid,.plans{grid-template-columns:1fr}.bars{gap:10px}.bar{width:18px}h1{font-size:3.05rem}.actions .btn,.cta-actions .btn{width:100%}.trust{margin-top:38px}footer .container{display:grid}}
+:root{
+  --bg:#02060d;
+  --panel:#07111a;
+  --line:rgba(255,255,255,.14);
+  --text:#f5f7fb;
+  --muted:#a4afbd;
+  --accent:#08e2bd;
+  --cyan:#5fc5c5;
+}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{
+  margin:0;
+  font-family:Inter,system-ui,sans-serif;
+  background:#02060d;
+  color:var(--text);
+  overflow-x:hidden;
+}
+
+body:before{
+  content:"";
+  position:fixed;
+  inset:82px 0 0;
+  background:
+    radial-gradient(circle at 86% 24%,rgba(8,226,189,.22),transparent 28%),
+    radial-gradient(circle at 56% 18%,rgba(95,197,197,.10),transparent 30%),
+    linear-gradient(180deg,#02060d 0%,#07111a 62%,#02060d 100%);
+  z-index:-2;
+}
+
+body:after{
+  content:"";
+  position:fixed;
+  inset:82px 0 0;
+  background-image:
+    linear-gradient(rgba(8,226,189,.07) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(8,226,189,.07) 1px,transparent 1px);
+  background-size:64px 64px;
+  mask-image:linear-gradient(to bottom,transparent 0%,#000 18%,transparent 82%);
+  z-index:-1;
+  pointer-events:none;
+}
+
+.progress-bar{
+  position:fixed;
+  top:0;
+  left:0;
+  height:4px;
+  width:0%;
+  background:linear-gradient(90deg,var(--accent),#6fffe3);
+  z-index:9999;
+  box-shadow:0 0 18px rgba(8,226,189,.65);
+}
+
+.container{
+  width:min(1360px,calc(100% - 72px));
+  margin:auto;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.nav{
+  height:104px;
+  border-bottom:1px solid var(--line);
+  background:rgba(2,6,13,.92);
+  backdrop-filter:blur(18px);
+  position:sticky;
+  top:0;
+  z-index:50;
+}
+
+.nav-inner{
+  height:100%;
+  display:grid;
+  grid-template-columns:280px 1fr 260px;
+  align-items:center;
+  gap:28px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  min-width:0;
+}
+
+.logo-img{
+  width:220px;
+  max-height:74px;
+  object-fit:contain;
+  display:block;
+  filter:drop-shadow(0 0 18px rgba(8,226,189,.18));
+}
+
+.links{
+  display:flex;
+  justify-content:center;
+  gap:34px;
+  align-items:center;
+}
+
+.links a{
+  font-size:1rem;
+  font-weight:800;
+  color:#f3f6fb;
+  position:relative;
+  padding:12px 0;
+}
+
+.links a:first-child{
+  color:var(--accent);
+}
+
+.links a:first-child:after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:3px;
+  background:var(--accent);
+  border-radius:99px;
+}
+
+.nav-cta{
+  justify-self:end;
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:54px;
+  padding:0 26px;
+  border-radius:999px;
+  border:1px solid rgba(8,226,189,.75);
+  font-weight:900;
+  transition:.25s;
+  gap:8px;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 0 32px rgba(8,226,189,.20);
+}
+
+.primary{
+  background:linear-gradient(135deg,var(--accent),#39f3d0);
+  color:#03110f!important;
+  border-color:transparent;
+}
+
+.outline{
+  background:rgba(255,255,255,.02);
+  color:#fff;
+}
+
+.hero{
+  padding:76px 0 54px;
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:70px;
+  align-items:center;
+}
+
+.badge{
+  display:inline-flex;
+  margin-bottom:24px;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid rgba(8,226,189,.48);
+  background:rgba(8,226,189,.05);
+  color:var(--accent);
+  font-size:.82rem;
+  font-weight:950;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+
+h1{
+  font-size:clamp(3.2rem,5.6vw,5.9rem);
+  line-height:1.04;
+  letter-spacing:-.075em;
+  margin:0 0 24px;
+  max-width:650px;
+}
+
+.accent{
+  color:var(--accent);
+}
+
+.lead{
+  font-size:1.22rem;
+  line-height:1.75;
+  color:#c8d1dc;
+  max-width:600px;
+  margin:0 0 34px;
+}
+
+.actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.trust{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+  margin-top:62px;
+  max-width:720px;
+}
+
+.trust-item{
+  display:grid;
+  grid-template-columns:42px 1fr;
+  gap:12px;
+  border-right:1px solid rgba(255,255,255,.16);
+  padding-right:20px;
+}
+
+.trust-item:last-child{
+  border-right:0;
+}
+
+.trust-icon{
+  width:38px;
+  height:38px;
+  border-radius:14px;
+  border:2px solid var(--accent);
+  color:var(--accent);
+  display:grid;
+  place-items:center;
+  font-weight:900;
+  font-size:1.2rem;
+}
+
+.trust-item strong{
+  display:block;
+  font-size:.95rem;
+}
+
+.trust-item small{
+  display:block;
+  color:#b2bfca;
+  line-height:1.45;
+  margin-top:4px;
+}
+
+.dashboard{
+  border:1px solid rgba(255,255,255,.28);
+  border-radius:24px;
+  background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.025));
+  box-shadow:0 36px 110px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.10);
+  backdrop-filter:blur(18px);
+  padding:20px;
+}
+
+.dash-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:0 0 16px;
+}
+
+.status{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  color:#55f4c8;
+  background:rgba(8,226,189,.07);
+  padding:7px 12px;
+  border-radius:99px;
+  margin-left:10px;
+}
+
+.status:before{
+  content:"";
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:var(--accent);
+}
+
+.period{
+  padding:10px 14px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  color:#e2e8f0;
+  background:rgba(255,255,255,.03);
+}
+
+.stat-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin-bottom:14px;
+}
+
+.stat{
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:12px;
+  background:rgba(255,255,255,.035);
+  padding:16px;
+}
+
+.stat small{
+  display:block;
+  color:#fff;
+  font-size:.78rem;
+  margin-bottom:14px;
+}
+
+.stat strong{
+  display:block;
+  font-size:1.85rem;
+  letter-spacing:-.06em;
+}
+
+.stat em{
+  display:block;
+  color:#62efbd;
+  font-size:.78rem;
+  font-style:normal;
+  margin-top:12px;
+}
+
+.dash-bottom{
+  display:grid;
+  grid-template-columns:.95fr 1.05fr;
+  gap:14px;
+}
+
+.box{
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:14px;
+  background:rgba(255,255,255,.025);
+  padding:14px;
+}
+
+.box-head{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:16px;
+  font-weight:800;
+}
+
+.activity{
+  display:grid;
+  gap:10px;
+}
+
+.activity-item{
+  display:grid;
+  grid-template-columns:28px 1fr auto;
+  gap:10px;
+  align-items:center;
+  padding:9px;
+  border-radius:12px;
+  background:rgba(255,255,255,.025);
+}
+
+.activity-icon{
+  width:24px;
+  height:24px;
+  border:1px solid var(--accent);
+  border-radius:50%;
+  color:var(--accent);
+  display:grid;
+  place-items:center;
+  font-size:.72rem;
+}
+
+.activity strong{
+  display:block;
+  font-size:.78rem;
+}
+
+.activity small{
+  display:block;
+  color:#909ba8;
+}
+
+.activity time{
+  font-size:.78rem;
+}
+
+.chart{
+  height:190px;
+  display:grid;
+  grid-template-columns:28px 1fr;
+  gap:10px;
+}
+
+.yaxis{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  color:#9ca8b5;
+  font-size:.75rem;
+  padding:6px 0 22px;
+}
+
+.bars{
+  display:flex;
+  align-items:end;
+  gap:18px;
+  border-left:1px solid rgba(255,255,255,.08);
+  border-bottom:1px solid rgba(255,255,255,.08);
+  padding:0 0 0 14px;
+}
+
+.bar-wrap{
+  height:150px;
+  display:flex;
+  flex-direction:column;
+  justify-content:end;
+  align-items:center;
+  gap:8px;
+  color:#cbd5e1;
+  font-size:.72rem;
+}
+
+.bar{
+  width:26px;
+  border-radius:2px 2px 0 0;
+  background:linear-gradient(180deg,var(--accent),rgba(8,226,189,.42));
+  box-shadow:0 0 20px rgba(8,226,189,.18);
+}
+
+.logos{
+  padding:34px 0;
+  border-top:1px solid rgba(255,255,255,.06);
+  border-bottom:1px solid rgba(255,255,255,.06);
+  background:rgba(0,0,0,.12);
+}
+
+.logos-inner{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:58px;
+  flex-wrap:wrap;
+  color:#7f8b99;
+}
+
+.client-logo{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  font-size:1.2rem;
+  font-weight:900;
+  color:#9ca8b5;
+  opacity:.9;
+}
+
+.client-mark{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#5fc5c5,#08e2bd);
+  opacity:.75;
+}
+
+.section{
+  padding:90px 0;
+}
+
+.section-head{
+  text-align:center;
+  max-width:940px;
+  margin:0 auto 48px;
+}
+
+.section-head h2,
+.problem-card h2{
+  font-size:clamp(2rem,4vw,3.2rem);
+  line-height:1.05;
+  letter-spacing:-.06em;
+  margin:0 0 14px;
+}
+
+.section-head p,
+.problem-card p{
+  color:#c2ccd8;
+  font-size:1.08rem;
+  line-height:1.7;
+  margin:0;
+}
+
+.problem-card{
+  margin:56px auto 0;
+  max-width:1180px;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:24px;
+  background:linear-gradient(180deg,rgba(8,226,189,.06),rgba(255,255,255,.025));
+  padding:46px 28px;
+  text-align:center;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.card{
+  border:1px solid rgba(255,255,255,.13);
+  border-radius:24px;
+  background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.025));
+  padding:28px;
+  box-shadow:0 24px 70px rgba(0,0,0,.32);
+}
+
+.card-icon{
+  width:48px;
+  height:48px;
+  border-radius:16px;
+  background:rgba(8,226,189,.1);
+  border:1px solid rgba(8,226,189,.32);
+  color:var(--accent);
+  display:grid;
+  place-items:center;
+  font-weight:900;
+  margin-bottom:18px;
+}
+
+.card h3{
+  margin:0 0 10px;
+  font-size:1.18rem;
+}
+
+.card p{
+  margin:0;
+  color:#aeb9c6;
+  line-height:1.7;
+}
+
+.plans{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.plan{
+  border:1px solid rgba(255,255,255,.13);
+  border-radius:24px;
+  background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.025));
+  padding:30px;
+}
+
+.plan.featured{
+  border-color:rgba(8,226,189,.45);
+  background:linear-gradient(180deg,rgba(8,226,189,.12),rgba(255,255,255,.025));
+}
+
+.tag{
+  display:inline-flex;
+  padding:7px 12px;
+  border-radius:99px;
+  background:rgba(8,226,189,.10);
+  color:var(--accent);
+  font-size:.78rem;
+  font-weight:900;
+  margin-bottom:14px;
+}
+
+.amount{
+  font-size:2rem;
+  font-weight:900;
+  letter-spacing:-.05em;
+  margin:10px 0 16px;
+}
+
+.plan p,
+.plan li{
+  color:#aeb9c6;
+  line-height:1.7;
+}
+
+ul{
+  margin:18px 0 0;
+  padding:0;
+  list-style:none;
+  display:grid;
+  gap:10px;
+}
+
+li:before{
+  content:"✓";
+  color:var(--accent);
+  font-weight:900;
+  margin-right:10px;
+}
+
+.cta{
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:24px;
+  background:linear-gradient(135deg,rgba(8,226,189,.12),rgba(255,255,255,.035));
+  padding:42px;
+  display:grid;
+  grid-template-columns:1.3fr .7fr;
+  gap:28px;
+  align-items:center;
+}
+
+.cta h2{
+  font-size:clamp(2rem,4vw,3.3rem);
+  margin:0 0 12px;
+  letter-spacing:-.06em;
+}
+
+.cta p{
+  color:#c2ccd8;
+  line-height:1.7;
+}
+
+.cta-actions{
+  display:grid;
+  gap:12px;
+}
+
+.whatsapp{
+  position:fixed;
+  right:22px;
+  bottom:22px;
+  width:62px;
+  height:62px;
+  border-radius:50%;
+  background:linear-gradient(135deg,#25d366,var(--accent));
+  color:#03110f;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:26px;
+  box-shadow:0 20px 50px rgba(0,0,0,.42);
+  z-index:99;
+}
+
+footer{
+  padding:34px 0;
+  border-top:1px solid rgba(255,255,255,.08);
+  color:#8d99a7;
+  background:rgba(0,0,0,.18);
+}
+
+footer .container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:22px;
+}
+
+.footer-logo{
+  width:220px;
+  max-height:70px;
+  object-fit:contain;
+  display:block;
+  opacity:.95;
+}
+
+@media(max-width:1050px){
+  .nav-inner{
+    grid-template-columns:1fr auto;
+  }
+
+  .links{
+    display:none;
+  }
+
+  .hero-grid,
+  .cta{
+    grid-template-columns:1fr;
+  }
+
+  .dashboard{
+    max-width:760px;
+  }
+
+  .trust{
+    grid-template-columns:1fr;
+  }
+
+  .grid,
+  .plans{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:720px){
+  .container{
+    width:min(100% - 28px,1360px);
+  }
+
+  .nav{
+    height:auto;
+  }
+
+  .nav-inner{
+    padding:16px 0;
+  }
+
+  .logo-img{
+    width:190px;
+  }
+
+  .nav-cta{
+    display:none;
+  }
+
+  .hero{
+    padding-top:48px;
+  }
+
+  .stat-grid,
+  .dash-bottom,
+  .grid,
+  .plans{
+    grid-template-columns:1fr;
+  }
+
+  .bars{
+    gap:10px;
+  }
+
+  .bar{
+    width:18px;
+  }
+
+  h1{
+    font-size:3.05rem;
+  }
+
+  .actions .btn,
+  .cta-actions .btn{
+    width:100%;
+  }
+
+  .trust{
+    margin-top:38px;
+  }
+
+  footer .container{
+    display:grid;
+  }
+}
 </style>
 </head>
+
 <body>
-<header class="nav"><div class="container nav-inner"><a class="brand" href="#topo"><img src="logo.png?v=20260501" alt="IndexaByte" class="footer-logo"></a><nav class="links"><a href="#topo">Início</a><a href="#solucoes">Soluções</a><a href="#planos">Planos</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav><a class="btn outline nav-cta" href="https://wa.me/5511993174656?text=Ol%C3%A1%2C%20quero%20falar%20com%20um%20especialista%20da%20IndexaByte.">☏ Falar no WhatsApp</a></div></header>
-<main id="topo"><section class="hero"><div class="container hero-grid"><div><span class="badge">Consultoria de TI para empresas</span><h1>Sua empresa não precisa de TI.<br><span class="accent">Precisa de controle total.</span></h1><p class="lead">Transformamos a tecnologia da sua empresa em um sistema estável, seguro e que impulsiona resultados.</p><div class="actions"><a class="btn primary" href="https://wa.me/5511993174656?text=Ol%C3%A1%2C%20quero%20falar%20com%20um%20especialista%20da%20IndexaByte.">☏ Falar com especialista</a><a class="btn outline" href="#solucoes">▶ Ver como funciona</a></div><div class="trust"><div class="trust-item"><span class="trust-icon">⌾</span><div><strong>Mais segurança</strong><small>Proteção de dados e acessos</small></div></div><div class="trust-item"><span class="trust-icon">ϟ</span><div><strong>Mais agilidade</strong><small>Suporte rápido e resolutivo</small></div></div><div class="trust-item"><span class="trust-icon">✓</span><div><strong>Mais previsibilidade</strong><small>Processos, monitoramento e relatórios</small></div></div></div></div><div class="dashboard"><div class="dash-head"><div><strong>Status geral</strong> <span class="status">Operacional</span></div><span class="period">Hoje⌄</span></div><div class="stat-grid"><div class="stat"><small>Chamados resolvidos</small><strong>18</strong><em>↑ 12% vs ontem</em></div><div class="stat"><small>Tempo médio de resposta</small><strong>12min</strong><em>↓ 18% vs ontem</em></div><div class="stat"><small>Uptime da rede</small><strong>99,9%</strong><em>↑ 0,4%</em></div><div class="stat"><small>Dispositivos online</small><strong>24</strong><em>Online</em></div></div><div class="dash-bottom"><div class="box"><div class="box-head"><span>Atividades recentes</span></div><div class="activity"><div class="activity-item"><span class="activity-icon">✓</span><div><strong>Backup diário concluído</strong><small>Sucesso</small></div><time>08:45</time></div><div class="activity-item"><span class="activity-icon">✓</span><div><strong>Atualização de segurança</strong><small>Sucesso</small></div><time>07:32</time></div><div class="activity-item"><span class="activity-icon">✓</span><div><strong>Novo chamado resolvido</strong><small>Sucesso</small></div><time>07:15</time></div><div class="activity-item"><span class="activity-icon">↻</span><div><strong>Monitoramento ativo</strong><small>Em andamento</small></div><time>Agora</time></div></div></div><div class="box"><div class="box-head"><span>Gráfico de chamados</span><a style="color:var(--accent);font-size:.85rem" href="#contato">Ver todas</a></div><div class="chart"><div class="yaxis"><span>30</span><span>20</span><span>10</span><span>0</span></div><div class="bars"><div class="bar-wrap"><div class="bar" style="height:74px"></div><span>Seg</span></div><div class="bar-wrap"><div class="bar" style="height:105px"></div><span>Ter</span></div><div class="bar-wrap"><div class="bar" style="height:68px"></div><span>Qua</span></div><div class="bar-wrap"><div class="bar" style="height:104px"></div><span>Qui</span></div><div class="bar-wrap"><div class="bar" style="height:138px"></div><span>Sex</span></div><div class="bar-wrap"><div class="bar" style="height:98px"></div><span>Sáb</span></div><div class="bar-wrap"><div class="bar" style="height:76px"></div><span>Dom</span></div></div></div></div></div></div></div></section><section class="logos"><div class="container logos-inner"><span>Empresas que confiam na IndexaByte</span><span class="client-logo"><i class="client-mark"></i>Ecowave</span><span class="client-logo"><i class="client-mark" style="border-radius:8px"></i>Instituto Seema</span></div></section><section id="solucoes" class="container"><div class="problem-card"><h2>Problemas que <span class="accent">travam</span> seu crescimento</h2><p>A falta de uma gestão de TI eficiente gera custos invisíveis e riscos reais para o seu negócio.</p></div></section><section class="section"><div class="container grid"><article class="card"><span class="card-icon">01</span><h3>Helpdesk empresarial</h3><p>Atendimento remoto e presencial para usuários, computadores, e-mails, impressoras, sistemas e acessos.</p></article><article class="card"><span class="card-icon">02</span><h3>Infraestrutura de escritório</h3><p>Organização de rede, Wi-Fi, backups, antivírus, máquinas, internet e documentação técnica do ambiente.</p></article><article class="card"><span class="card-icon">03</span><h3>Sites profissionais</h3><p>Criação de sites institucionais e landing pages com visual premium e foco em gerar confiança comercial.</p></article></div></section><section id="sobre" class="section"><div class="container"><div class="section-head"><h2>TI com rotina, controle e visão de negócio.</h2><p>A IndexaByte atua como uma camada operacional para empresas que precisam reduzir paradas, organizar seus ativos digitais e transmitir mais profissionalismo para seus clientes.</p></div><div class="grid"><article class="card"><h3>Diagnóstico</h3><p>Mapeamos máquinas, rede, usuários, acessos, riscos e prioridades.</p></article><article class="card"><h3>Correção</h3><p>Organizamos o que está gerando perda de tempo, insegurança ou instabilidade.</p></article><article class="card"><h3>Evolução contínua</h3><p>Criamos uma rotina de suporte, documentação e melhoria do ambiente.</p></article></div></div></section><section id="planos" class="section"><div class="container"><div class="section-head"><h2>Planos simples para começar com controle.</h2><p>O escopo ideal depende da quantidade de usuários, máquinas, urgência, presencialidade e maturidade atual da empresa.</p></div><div class="plans"><article class="plan"><h3>Helpdesk Essencial</h3><div class="amount">Suporte</div><p>Para empresas que precisam de atendimento técnico recorrente.</p><ul><li>Suporte remoto</li><li>Triagem de chamados</li><li>Correções do dia a dia</li></ul></article><article class="plan featured"><span class="tag">Mais indicado</span><h3>TI Gerenciada</h3><div class="amount">Mensal</div><p>Para empresas que querem previsibilidade e gestão da infraestrutura.</p><ul><li>Helpdesk + preventiva</li><li>Rede e backup acompanhados</li><li>Documentação técnica</li></ul></article><article class="plan"><h3>Site Empresarial</h3><div class="amount">Projeto</div><p>Para empresas que precisam melhorar presença digital e confiança.</p><ul><li>Site institucional</li><li>Landing page</li><li>Publicação e suporte inicial</li></ul></article></div></div></section><section id="contato" class="section"><div class="container cta"><div><h2>Vamos organizar sua TI?</h2><p>Chame no WhatsApp e conte o tamanho da sua empresa, principais problemas e urgências. A IndexaByte retorna com um caminho simples para começar.</p></div><div class="cta-actions"><a class="btn primary" href="https://wa.me/5511993174656?text=Ol%C3%A1%2C%20quero%20um%20diagn%C3%B3stico%20gratuito%20da%20minha%20TI%20com%20a%20IndexaByte.">Chamar no WhatsApp</a><a class="btn outline" href="mailto:contato@indexabyte.com.br?subject=Diagnóstico IndexaByte">Enviar e-mail</a></div></div></section></main><footer><div class="container"><img src="data:image/webp;base64,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" alt="IndexaByte" class="footer-logo"><span>© 2026 IndexaByte • Consultoria de TI</span></div></footer><a class="whatsapp" href="https://wa.me/5511993174656?text=Ol%C3%A1%2C%20quero%20falar%20com%20um%20especialista%20da%20IndexaByte.">☏</a></body></html>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="nav">
+  <div class="container nav-inner">
+
+    <a class="brand" href="#topo">
+      <img src="logo.png?v=20260501" alt="IndexaByte Consultoria de TI" class="logo-img">
+    </a>
+
+    <nav class="links">
+      <a href="#topo">Início</a>
+      <a href="#solucoes">Soluções</a>
+      <a href="#planos">Planos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <a class="btn outline nav-cta" href="https://wa.me/5511993174656?text=Olá, quero falar com um especialista da IndexaByte.">
+      ☏ Falar no WhatsApp
+    </a>
+
+  </div>
+</header>
+
+<main id="topo">
+
+<section class="hero">
+  <div class="container hero-grid">
+
+    <div>
+      <span class="badge">Consultoria de TI para empresas</span>
+
+      <h1>
+        Sua empresa não precisa de TI.<br>
+        <span class="accent">Precisa de controle total.</span>
+      </h1>
+
+      <p class="lead">
+        Transformamos a tecnologia da sua empresa em um sistema estável, seguro e que impulsiona resultados.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="https://wa.me/5511993174656?text=Olá, quero falar com um especialista da IndexaByte.">
+          ☏ Falar com especialista
+        </a>
+
+        <a class="btn outline" href="#solucoes">
+          ▶ Ver como funciona
+        </a>
+      </div>
+
+      <div class="trust">
+        <div class="trust-item">
+          <span class="trust-icon">⌾</span>
+          <div>
+            <strong>Mais segurança</strong>
+            <small>Proteção de dados e acessos</small>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <span class="trust-icon">ϟ</span>
+          <div>
+            <strong>Mais agilidade</strong>
+            <small>Suporte rápido e resolutivo</small>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <span class="trust-icon">✓</span>
+          <div>
+            <strong>Mais previsibilidade</strong>
+            <small>Processos, monitoramento e relatórios</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dashboard">
+      <div class="dash-head">
+        <div>
+          <strong>Status geral</strong>
+          <span class="status">Operacional</span>
+        </div>
+        <span class="period">Hoje⌄</span>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat">
+          <small>Chamados resolvidos</small>
+          <strong>18</strong>
+          <em>↑ 12% vs ontem</em>
+        </div>
+
+        <div class="stat">
+          <small>Tempo médio de resposta</small>
+          <strong>12min</strong>
+          <em>↓ 18% vs ontem</em>
+        </div>
+
+        <div class="stat">
+          <small>Uptime da rede</small>
+          <strong>99,9%</strong>
+          <em>↑ 0,4%</em>
+        </div>
+
+        <div class="stat">
+          <small>Dispositivos online</small>
+          <strong>24</strong>
+          <em>Online</em>
+        </div>
+      </div>
+
+      <div class="dash-bottom">
+        <div class="box">
+          <div class="box-head">
+            <span>Atividades recentes</span>
+          </div>
+
+          <div class="activity">
+            <div class="activity-item">
+              <span class="activity-icon">✓</span>
+              <div>
+                <strong>Backup diário concluído</strong>
+                <small>Sucesso</small>
+              </div>
+              <time>08:45</time>
+            </div>
+
+            <div class="activity-item">
+              <span class="activity-icon">✓</span>
+              <div>
+                <strong>Atualização de segurança</strong>
+                <small>Sucesso</small>
+              </div>
+              <time>07:32</time>
+            </div>
+
+            <div class="activity-item">
+              <span class="activity-icon">✓</span>
+              <div>
+                <strong>Novo chamado resolvido</strong>
+                <small>Sucesso</small>
+              </div>
+              <time>07:15</time>
+            </div>
+
+            <div class="activity-item">
+              <span class="activity-icon">↻</span>
+              <div>
+                <strong>Monitoramento ativo</strong>
+                <small>Em andamento</small>
+              </div>
+              <time>Agora</time>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <span>Gráfico de chamados</span>
+            <a style="color:var(--accent);font-size:.85rem" href="#contato">Ver todas</a>
+          </div>
+
+          <div class="chart">
+            <div class="yaxis">
+              <span>30</span>
+              <span>20</span>
+              <span>10</span>
+              <span>0</span>
+            </div>
+
+            <div class="bars">
+              <div class="bar-wrap"><div class="bar" style="height:74px"></div><span>Seg</span></div>
+              <div class="bar-wrap"><div class="bar" style="height:105px"></div><span>Ter</span></div>
+              <div class="bar-wrap"><div class="bar" style="height:68px"></div><span>Qua</span></div>
+              <div class="bar-wrap"><div class="bar" style="height:104px"></div><span>Qui</span></div>
+              <div class="bar-wrap"><div class="bar" style="height:138px"></div><span>Sex</span></div>
+              <div class="bar-wrap"><div class="bar" style="height:98px"></div><span>Sáb</span></div>
+              <div class="bar-wrap"><div class="bar" style="height:76px"></div><span>Dom</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="logos">
+  <div class="container logos-inner">
+    <span>Empresas que confiam na IndexaByte</span>
+
+    <span class="client-logo">
+      <i class="client-mark"></i>
+      Ecowave
+    </span>
+
+    <span class="client-logo">
+      <i class="client-mark" style="border-radius:8px"></i>
+      Instituto Seema
+    </span>
+  </div>
+</section>
+
+<section id="solucoes" class="container">
+  <div class="problem-card">
+    <h2>Problemas que <span class="accent">travam</span> seu crescimento</h2>
+    <p>A falta de uma gestão de TI eficiente gera custos invisíveis e riscos reais para o seu negócio.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid">
+
+    <article class="card">
+      <span class="card-icon">01</span>
+      <h3>Helpdesk empresarial</h3>
+      <p>Atendimento remoto e presencial para usuários, computadores, e-mails, impressoras, sistemas e acessos.</p>
+    </article>
+
+    <article class="card">
+      <span class="card-icon">02</span>
+      <h3>Infraestrutura de escritório</h3>
+      <p>Organização de rede, Wi-Fi, backups, antivírus, máquinas, internet e documentação técnica do ambiente.</p>
+    </article>
+
+    <article class="card">
+      <span class="card-icon">03</span>
+      <h3>Sites profissionais</h3>
+      <p>Criação de sites institucionais e landing pages com visual premium e foco em gerar confiança comercial.</p>
+    </article>
+
+  </div>
+</section>
+
+<section id="sobre" class="section">
+  <div class="container">
+
+    <div class="section-head">
+      <h2>TI com rotina, controle e visão de negócio.</h2>
+      <p>A IndexaByte atua como uma camada operacional para empresas que precisam reduzir paradas, organizar seus ativos digitais e transmitir mais profissionalismo para seus clientes.</p>
+    </div>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Diagnóstico</h3>
+        <p>Mapeamos máquinas, rede, usuários, acessos, riscos e prioridades.</p>
+      </article>
+
+      <article class="card">
+        <h3>Correção</h3>
+        <p>Organizamos o que está gerando perda de tempo, insegurança ou instabilidade.</p>
+      </article>
+
+      <article class="card">
+        <h3>Evolução contínua</h3>
+        <p>Criamos uma rotina de suporte, documentação e melhoria do ambiente.</p>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<section id="planos" class="section">
+  <div class="container">
+
+    <div class="section-head">
+      <h2>Planos simples para começar com controle.</h2>
+      <p>O escopo ideal depende da quantidade de usuários, máquinas, urgência, presencialidade e maturidade atual da empresa.</p>
+    </div>
+
+    <div class="plans">
+      <article class="plan">
+        <h3>Helpdesk Essencial</h3>
+        <div class="amount">Suporte</div>
+        <p>Para empresas que precisam de atendimento técnico recorrente.</p>
+        <ul>
+          <li>Suporte remoto</li>
+          <li>Triagem de chamados</li>
+          <li>Correções do dia a dia</li>
+        </ul>
+      </article>
+
+      <article class="plan featured">
+        <span class="tag">Mais indicado</span>
+        <h3>TI Gerenciada</h3>
+        <div class="amount">Mensal</div>
+        <p>Para empresas que querem previsibilidade e gestão da infraestrutura.</p>
+        <ul>
+          <li>Helpdesk + preventiva</li>
+          <li>Rede e backup acompanhados</li>
+          <li>Documentação técnica</li>
+        </ul>
+      </article>
+
+      <article class="plan">
+        <h3>Site Empresarial</h3>
+        <div class="amount">Projeto</div>
+        <p>Para empresas que precisam melhorar presença digital e confiança.</p>
+        <ul>
+          <li>Site institucional</li>
+          <li>Landing page</li>
+          <li>Publicação e suporte inicial</li>
+        </ul>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<section id="contato" class="section">
+  <div class="container cta">
+
+    <div>
+      <h2>Vamos organizar sua TI?</h2>
+      <p>Chame no WhatsApp e conte o tamanho da sua empresa, principais problemas e urgências. A IndexaByte retorna com um caminho simples para começar.</p>
+    </div>
+
+    <div class="cta-actions">
+      <a class="btn primary" href="https://wa.me/5511993174656?text=Olá, quero um diagnóstico gratuito da minha TI com a IndexaByte.">
+        Chamar no WhatsApp
+      </a>
+
+      <a class="btn outline" href="mailto:contato@indexabyte.com.br?subject=Diagnóstico IndexaByte">
+        Enviar e-mail
+      </a>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <img src="logo.png?v=20260501" alt="IndexaByte" class="footer-logo">
+    <span>© 2026 IndexaByte • Consultoria de TI</span>
+  </div>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5511993174656?text=Olá, quero falar com um especialista da IndexaByte.">☏</a>
+
+<script>
+const progressBar = document.getElementById("progressBar");
+
+window.addEventListener("scroll", () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+  progressBar.style.width = progress + "%";
+});
+</script>
+
+</body>
+</html>
